@@ -1,4 +1,5 @@
-a=int(input("enter the number"))
-a=a+1
-for i in range(a,11,a):
-    print(i)
+a=int(input("enter the start value:"))
+b=int(input("enter the last value"))
+for a in range(a,b,a):
+    b=a+1
+    print(aend=" ")   
